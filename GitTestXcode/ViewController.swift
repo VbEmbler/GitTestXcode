@@ -11,11 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var labelOne: UILabel!
+    @IBOutlet weak var labelTwo: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         labelOne.text = "Hello World"
+        labelTwo.text = "Hello New World"
     }
 
 
