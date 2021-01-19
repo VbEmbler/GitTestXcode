@@ -27,6 +27,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43b-he-rm6">
+                                <rect key="frame" x="166.5" y="149" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -35,10 +41,13 @@
                             <constraint firstItem="BnM-1h-PmX" firstAttribute="top" secondItem="AgL-j2-ofw" secondAttribute="bottom" constant="23" id="L34-03-R9l"/>
                             <constraint firstItem="AgL-j2-ofw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="MPl-Vo-Lzb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AgL-j2-ofw" secondAttribute="trailing" constant="130" id="bs9-EQ-bMT"/>
+                            <constraint firstItem="43b-he-rm6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kgk-jQ-mCT"/>
+                            <constraint firstItem="43b-he-rm6" firstAttribute="top" secondItem="BnM-1h-PmX" secondAttribute="bottom" constant="22" id="kvG-Vh-5If"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="labelFour" destination="43b-he-rm6" id="06i-DC-Q7d"/>
                         <outlet property="labelOne" destination="AgL-j2-ofw" id="atW-E3-pzX"/>
                         <outlet property="labelTwo" destination="BnM-1h-PmX" id="kb5-rW-SNW"/>
                     </connections>
