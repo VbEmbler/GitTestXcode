@@ -12,12 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var labelOne: UILabel!
     @IBOutlet weak var labelTwo: UILabel!
+    @IBOutlet weak var labelThree: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         labelOne.text = "Hello World"
         labelTwo.text = "Hello New World"
+        labelThree.text = "Hello New Brave World!"
     }
 
 

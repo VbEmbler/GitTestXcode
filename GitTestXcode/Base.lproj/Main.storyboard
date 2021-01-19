@@ -27,19 +27,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFl-G1-Em3">
+                                <rect key="frame" x="166.5" y="143" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="BnM-1h-PmX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="59M-y6-LNQ"/>
                             <constraint firstItem="AgL-j2-ofw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="D79-gn-Zq2"/>
                             <constraint firstItem="BnM-1h-PmX" firstAttribute="top" secondItem="AgL-j2-ofw" secondAttribute="bottom" constant="23" id="L34-03-R9l"/>
+                            <constraint firstItem="vFl-G1-Em3" firstAttribute="top" secondItem="BnM-1h-PmX" secondAttribute="bottom" constant="16" id="MAo-Fj-v0a"/>
                             <constraint firstItem="AgL-j2-ofw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="MPl-Vo-Lzb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AgL-j2-ofw" secondAttribute="trailing" constant="130" id="bs9-EQ-bMT"/>
+                            <constraint firstItem="vFl-G1-Em3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qdd-rr-93o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="labelOne" destination="AgL-j2-ofw" id="atW-E3-pzX"/>
+                        <outlet property="labelThree" destination="vFl-G1-Em3" id="ez0-Gm-Teh"/>
                         <outlet property="labelTwo" destination="BnM-1h-PmX" id="kb5-rW-SNW"/>
                     </connections>
                 </viewController>
